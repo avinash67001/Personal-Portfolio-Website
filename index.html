@@ -1,257 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/b69296b223.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/b69296b223.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <div class="logo" href="index.html" >
-                    <span style="color: var(--color); font-size: 50px;">A</span><span
-                        style="font-size: 20px;">VINASH.</span>
-                </div>
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a> </li>
-                    <li><a href="#about">About</a> </li>
-                    <li><a href="#services">Services</a> </li>
-                    <li><a href="#portfolio">Portfolio</a> </li>
-                    <li><a href="#contact">Contact</a> </li>
-                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <p> Web Developer </p>
-                <h1>Hi, I am <br><span style="color: var(--color);" class="auto-type"> </span></h1>
-            </div>
+      <div class="container">
+        <nav>
+          <div class="logo" href="index.html">
+            <span style="color: var(--color); font-size: 50px">A</span
+            ><span style="font-size: 20px">VINASH.</span>
+          </div>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hi, I am <br /><span style="color: var(--color)" class="auto-type">
+            </span>
+          </h1>
         </div>
+      </div>
     </div>
-
 
     <!-- About Section -->
 
-
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="Images/IMG_20220816_124605.jpg" alt="">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title"> About Me </h1>
-                    <p>I am Avinash Chawla, pursuing my Masters in Computer Applications from   Amity University Online.
-                        Skilled in Java, Data structures, Algorithms, and Object Oriented Programming and frontend
-                        technologies like HTML, CSS, and JavaScript, I have a versatile skill set. With experience as a
-                        web development intern and several completed projects, including a personal portfolio website, a
-                        blogging website, and a grooming website landing page, I have demonstrated my proficiency in
-                        creating dynamic web applications. Additionally, I possess knowledge of video editing software
-                        and techniques.
-                        <br>
-                    </p>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/IMG_20220816_124605.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am Avinash Chawla, pursuing my Masters in Computer Applications
+              from Amity University Online. Skilled in Java, Data structures,
+              Algorithms, and Object Oriented Programming and frontend
+              technologies like HTML, CSS, JavaScript,Bootstrap, NodeJS,
+              ExpressJS and MongoDB, I have a versatile skill set. With
+              experience as a web development intern and several completed
+              projects, including a Snake-Game,A Live Weather App, A Personal
+              Portfolio website blogging website etc. I have demonstrated my
+              proficiency in creating dynamic web applications.
+              <br />
+            </p>
 
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick=" opentab('skills')"> Skills </p>
-                        <p class="tab-links" onclick=" opentab('Experience')"> Experience </p>
-                        <p class="tab-links" onclick=" opentab('Education')"> Education </p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Web Designing </span><br>HTML, CSS and JavaScript </li>
-                            <li><span> Programming</span><br>Java with Data Structures and Algorithms, <br>Object
-                                Oriented Programming</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="Experience">
-                        <ul>
-                            <li><span>Web Developement Intern </span><br>Bharat Intern </li>
-                            <li><span> Web Developement Intern</span><br>Code Clause </li>
-                            <li><span>Marketing Intern</span><br>Insplore Consultants </li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="Education">
-                        <ul>
-                            <li><span>Amity University Online </span><br>Masters Of Computer Applications(Augmented
-                                Reality & Virtual Reality) <br> 2023 -2025 </li>
-                            <li><span> Guru Gobind Singh Indraprastha University</span><br>Bachelors Of Business
-                                Administration(Computer Aided Management) <br> 2019 - 2022 <br> CGPA - 8.54 </li>
-                            <li><span>Bhai Parmanand Vidya Mandir </span><br>High School - CBSE Board<br>2017 -2019<br>
-                                Percentage - 76 </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick=" opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick=" opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick=" opentab('Education')">Education</p>
             </div>
+            <div class="tab-contents active-tab skill" id="skills">
+              <ul>
+                <li>
+                  <span> Programming & Markup Languages</span><br />
+                  Java <br />
+                  HTML<br />
+                  CSS<br />
+                  JavaScript
+                </li>
+                <li><span>Database </span><br />MongoDB</li>
+                <li>
+                  <span>Frameworks</span><br />
+                  Bootstrap<br />Node JS<br />ExpressJS<br />Familar with React
+                  JS.
+                </li>
+                <li>
+                  <span>Course Work</span><br />
+                  Data Structures and Algorithms<br />
+                  Object-Oriented Programming
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>Web Developement Intern </span><br />Bharat Intern
+                </li>
+                <li><span> Web Developement Intern</span><br />Code Clause</li>
+                <li><span>Marketing Intern</span><br />Insplore Consultants</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>Amity University Online </span><br />Masters Of Computer
+                  Applications(Augmented Reality & Virtual Reality) <br />
+                  2023 -2025
+                </li>
+                <li>
+                  <span> Guru Gobind Singh Indraprastha University</span
+                  ><br />Bachelors Of Business Administration(Computer Aided
+                  Management) <br />
+                  2019 - 2022 <br />
+                  CGPA - 8.54
+                </li>
+                <li>
+                  <span>Bhai Parmanand Vidya Mandir </span><br />High School -
+                  CBSE Board<br />2017 -2019<br />
+                  Percentage - 76
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Services -->
 
     <div id="services">
-        <div class="container">
-            <h1 class="sub-title"> My Services </h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Designing</h2>
-                    <p>Elevate your online presence with our expert web design services, tailored to transform your
-                        vision into a captivating digital reality. From sleek and modern layouts to seamless user
-                        experiences, we craft websites that leave a lasting impression and drive meaningful engagement.
-                    </p>
-                    <a href="#"> Learn More</a>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Designing</h2>
+            <p>
+              Elevate your online presence with my web designing services,
+              tailored to transform your vision into a captivating digital
+              reality. From sleek and modern layouts to seamless user
+              experiences, I craft websites that leave a lasting impression and
+              drive meaningful engagement.
+            </p>
+            <a href="#"> Learn More</a>
+          </div>
 
-                <div>
-                    <i class="fa-solid fa-wand-magic-sparkles"></i>
-                    <h2>Video Editing</h2>
-                    <p>Unleash the full potential of your footage with our professional video editing services. From
-                        seamless transitions to captivating visual effects, we transform raw footage into compelling
-                        stories that leave a lasting impact on your audience.</p>
-                    <a href="#"> Learn More</a>
-                </div>
-            </div>
+          <!-- <div>
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <h2>Video Editing</h2>
+            <p>
+              Unleash the full potential of your footage with  professional
+              video editing services. From seamless transitions to captivating
+              visual effects, we transform raw footage into compelling stories
+              that leave a lasting impact on your audience.
+            </p>
+            <a href="#"> Learn More</a>
+          </div> -->
         </div>
+      </div>
     </div>
 
     <!-- Portfolio  -->
 
     <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title"> My Work </h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="/Images/Blogging.jpg">
-                    <div class="layer">
-                        <h3>Blogify</h3>
-                        <p>Blogify - a creative outlet where I wield the power of words to express my ideas and
-                            insights. Engage with a captivating collection of articles that showcase my expertise and
-                            passion, leaving an enduring impression on every reader who embarks on this literary
-                            journey."
-                        </p>
-                        <a href="https://blogifyyy.netlify.app/" target="_blank"> <i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="/Images/Grooming.jpg">
-                    <div class="layer">
-                        <h3>Baal CutWow.com<br>(Landing Page)</h3>
-                        <p>Step into the realm of our grooming website's landing page, where we redefine the art of
-                            refinement. With a seamless blend of elegant aesthetics and informative content, our
-                            platform invites visitors to embark on a grooming odyssey, discovering expert tips, product
-                            recommendations, and a wealth of resources to elevate their grooming game to new heights..
-                        </p>
-                        <a href="https://github.com/avinash67001/Landing-Page--Baal-Cut-Wow.com" target="_blank"> <i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="/Images/Cafe.jpg">
-                    <div class="layer">
-                        <h3>Cafe Website</h3>
-                        <p> Indulge your senses as you step into the digital world of our café website, a haven for food
-                            lovers and connoisseurs alike. Discover our tantalizing offerings, from aromatic brews to
-                            mouthwatering dishes, and allow us to transport you to a realm of gastronomic delight with
-                            every click
-                        </p>
-                        <a href="https://github.com/avinash67001/Sip-N-Snack---Cafe-Website" target="_blank"> <i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/Images/Snake Game.jpeg" />
+            <div class="layer">
+              <h3>Snake Arena- <br />A Snake Game</h3>
+              <p>
+                Dive into Snake Arena, where classic gameplay meets modern
+                innovation. With integrated user authentication for secure data
+                storage, innovative features like Pause/Play, and a visually
+                distinctive UI design, this project redefines the traditional
+                Snake game experience. Powered by HTML, CSS, JavaScript, EJS,
+                NodeJS, ExpressJS, and MongoDB, it's not just a game; it's a
+                fusion of creativity and technology that promises an engaging
+                and immersive adventure.
+              </p>
+              <a
+                href="https://github.com/avinash67001/Snake-Game"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
             </div>
-            <a href="#" class="btn"> See More </a>
+          </div>
+          <div class="work">
+            <img src="/Images/Weather Image.jpeg" />
+            <div class="layer">
+              <h3>Display My Weather<br />A Weather Web App</h3>
+              <p>
+                Explore real-time meteorological insights with Display my
+                Weather Web App, featuring a dynamic background reflecting the
+                current weather in the searched city. Expressive icons, like a
+                sun for clear skies, accompany up-to-the-minute weather data,
+                turning the mundane into a visually immersive experience. Built
+                with HTML, CSS, and JavaScript, it's a sophisticated yet
+                user-friendly journey into the atmospheric nuances. Welcome to a
+                Weather Web App that transforms weather checking into a
+                delightful and informative adventure.
+              </p>
+              <a href="https://displaymyweather.netlify.app/" target="_blank">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/Images/Personal Portfolio.jpeg" />
+            <div class="layer">
+              <h3>Personal Portfolio website</h3>
+              <p>
+                Explore my Personal Portfolio, a dynamic canvas crafted with
+                HTML, CSS, and JavaScript. Boasting 100% responsive design, it
+                ensures a seamless viewing experience across devices. Dive into
+                an aesthetically pleasing showcase of my skills and projects,
+                where innovation meets user-friendly design, inviting you to a
+                comprehensive and engaging journey.
+              </p>
+              <a href="https://avinashchawla.netlify.app/" target="_blank">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
         </div>
+        <a href="#" class="btn"> See More </a>
+      </div>
     </div>
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title"> Contact Me</h1>
-                    <p> <i class="fa-solid fa-paper-plane"></i>avinashchawla67001@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>7428517034</p>
-                    <div class="Social-icons">
-                        <a href="https://www.linkedin.com/in/avinash-chawla-aa14a0194/" target="_blank"><i
-                                class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/avii.naashh/" target="_blank"><i
-                                class="fa-brands fa-instagram"></i></a>
-                        <a href="https://github.com/avinash67001" target="_blank"><i
-                                class="fa-brands fa-github"></i></a>
-                    </div>
-                    <a href="Avinash's Resume.pdf" download class="btn btn-2">Download CV</a>
-                </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Enter Your Name" required>
-                        <input type="email" name="Email" placeholder="Enter Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
-                        <button type="submit" class="btn btn-2">Submit </button>
-                        <span id="msg"> </span>
-                    </form>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i
+              >avinashchawla67001@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+91 7428517034</p>
+            <div class="Social-icons">
+              <a
+                href="https://www.linkedin.com/in/avinash-chawla-aa14a0194/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/avii.naashh/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://github.com/avinash67001" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
             </div>
+            <a href="Avinash Chawla Resume.pdf" download class="btn btn-2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Enter Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Enter Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn-2">Submit</button>
+              <span id="msg"> </span>
+            </form>
+          </div>
         </div>
-        <div class="copyright">
-            <p>Copyright &copy Avinash<br><a
-                    href="https://www.freepik.com/free-photo/cup-hot-coffee-cinnamon-sticks_6636664.htm#page=2&query=Cafe&position=28&from_view=search&track=sph">Images
-                    by Racool_studio</a> on Freepik</p>
-        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy Avinash<br /><a
+            href="https://www.freepik.com/free-photo/cup-hot-coffee-cinnamon-sticks_6636664.htm#page=2&query=Cafe&position=28&from_view=search&track=sph"
+            >Images by Racool_studio</a
+          >
+          on Freepik
+        </p>
+      </div>
     </div>
+    <!-- <script src = "script.js">  </script>     -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
-        let typed = new Typed(".auto-type", {
-            strings: ["Avinash Chawla"],
-            typespeed: 150,
-            backspeed: 150,
-            loop: true
+      let typed = new Typed(".auto-type", {
+        strings: ["Avinash Chawla"],
+        typespeed: 150,
+        backspeed: 150,
+        loop: true,
+      });
+    </script>
+    <script>
+      let tablinks = document.getElementsByClassName("tab-links");
+      let tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      let sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxhCiw2miihRx4UKNIdluG_T3NITPrSyZhAonzVy_7D-Ex3gFMqJ99g5d_fDQJ5cHge/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, {
+          mode: "no-cors",
+          method: "POST",
+          body: new FormData(form),
         })
+          .then((response) => {
+            msg.innerHTML = "Message Sent";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
     </script>
-    <script>
-        let tablinks = document.getElementsByClassName("tab-links");
-        let tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link");
-            }
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-    </script>
-
-    <script>
-        let sidemenu = document.getElementById("sidemenu");
-        function openmenu() {
-            sidemenu.style.right = "0";
-        }
-        function closemenu() {
-            sidemenu.style.right = "-200px";
-        }
-    </script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxhCiw2miihRx4UKNIdluG_T3NITPrSyZhAonzVy_7D-Ex3gFMqJ99g5d_fDQJ5cHge/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, { mode: "no-cors", method: 'POST', body: new FormData(form) })
-                .then(response => {
-                    msg.innerHTML = "Message Sent"
-                    setTimeout(function () {
-                        msg.innerHTML = ""
-                    }, 5000)
-                    form.reset()
-                })
-                .catch(error => console.error('Error!', error.message))
-        })
-    </script>
-</body>
-
+  </body>
 </html>
